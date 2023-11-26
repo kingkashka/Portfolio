@@ -1,0 +1,49 @@
+body{
+    background-color: bisque;
+}
+#statement1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#title{
+    display: flex;
+    justify-content: center;
+}
+#shama{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 10px;
+}
+#torah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#book1{
+    border: solid black 2px;
+    border-radius: 10px;
+    font-size: 15PX;
+}
+#book2{
+    border: solid black 2px;
+    border-radius: 10px;
+    font-size: 15PX;
+}
+#book3{
+    border: solid black 2px;
+    border-radius: 10px; 
+    font-size: 15PX;  
+}
+#book4{
+    border: solid black 2px;
+    border-radius: 10px;  
+    font-size: 15PX;  
+}
+#book5{
+    border: solid black 2px;
+    border-radius: 10px;
+    font-size: 15PX;    
+}
