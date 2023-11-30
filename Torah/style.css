@@ -1,5 +1,6 @@
 body{
-    background-color: bisque;
+    background-color: rgb(228, 223, 220);
+    
 }
 #statement1{
     display: flex;
@@ -9,6 +10,12 @@ body{
 #title{
     display: flex;
     justify-content: center;
+    transition: ease-in-out 3s;
+}
+#title:hover{
+    color: rgb(5, 178, 209);
+    font-size: 100px;
+
 }
 #shama{
     display: flex;
@@ -23,9 +30,17 @@ body{
     
 }
 #book1{
+    transition: c;
     border: solid black 2px;
     border-radius: 10px;
     font-size: 15PX;
+    
+
+}
+#book1:hover{
+    color: rebeccapurple;
+    background-color: antiquewhite;
+    width: 150px;
 }
 #book2{
     border: solid black 2px;
