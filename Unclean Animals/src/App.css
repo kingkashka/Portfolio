@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.header{
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* margin: 10px; */
+  padding-top: 10px;
+  align-content: center;
+  background-color: #88898a;
+  width: 100%;
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+}
+.header > h2{
+  color: rgb(30, 176, 196);
+  font-size: 30px;
+}
+.header > h1{
+  font-size: 45px;
+  color: rgb(30, 176, 196);
+}
+.header > ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30px;
+  list-style-type: none;
+  /* margin-right: auto; */
+  
+}
+.body > h2{
+  font-size: 30px;
+  color: red;
+}
+.card {
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: #282d2e;
+  display: inline-block;
+  max-width: 1280px;
+}
+.card--image{
+  height: auto;
+  width: auto;
+  max-width: 1000px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.read-the-docs {
+  color: #888;
+}
+.Lilcard{
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  height: 275px;
+  width: 200px;
+  background-color: #eff1f3;
+  color: black;
+  display: inline-block;
+  flex-wrap: wrap;
+  font-size: 13px
+}
+.Lilcard--image{
+  border-radius: 20px;
+  height: 175px;
+  width: 200px;
+  cursor: pointer;
+}
