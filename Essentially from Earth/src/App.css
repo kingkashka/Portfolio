@@ -1,0 +1,111 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  background-color: #1ae9ab;
+}
+.header{
+  color: black;
+}
+.statement{
+  color:black;
+  font-size: 25px;
+}
+/* .card {
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: #282d2e;
+  display: inline-block;
+  max-width: 1280px;
+  background-color:bisque;
+  color: black;
+} */
+/* .card--image{
+  height: auto;
+  width: auto;
+  max-width: 1000px;
+  border-radius: 20px;
+  cursor: pointer;
+} */
+.lilcard{
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+  height: 340px;
+  width: 200px;
+  background-color:transparent;
+  /* background-color: #fafdff; */
+  color: black;
+  display: inline-block;
+  font-size: 12px;
+}
+.lilcard > h2{
+  padding-top: 20px;
+}
+.lilcard > label{
+  font-size: 16px;
+  padding-top: 25px;
+  font: bold;
+  font-style: italic;
+  text-decoration-line: underline;
+}
+.lilcard--image{
+  border-radius: 20px;
+  height: 175px;
+  width: 200px;
+  cursor: pointer;
+}
+.lilCardContainer{
+  margin: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+/* 
+#goal{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: solid 1px black;
+  border-radius: 100px;
+}
+#paragraph1{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+#butterLabel{
+  border: solid 1px black;
+  border-radius: 20px;
+  padding: 10px;
+  color: #1ae9ab;
+  background-color: black;
+  width: 100px;
+  height: 50px;
+  font-size: large;
+  
+  
+}
+#soapLabel{
+  border: solid 1px black;
+  border-radius: 20px;
+  padding: 10px;
+  color: #1ae9ab;
+  background-color: black;
+  width: 100px;
+  height: 50px;
+  font-size: large;
+} */
