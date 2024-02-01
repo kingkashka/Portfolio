@@ -1,16 +1,16 @@
+import React from "react";
 function Card(props){
-    // const [display, setDisplay] = React.useState(true)
-    // function displayInfo(){
-    //     setDisplay(prevState => !prevState)
-    // }
+    const [toggle, setToggle] = React.useState(true);
+    function display(){
+        setToggle(prevState => !prevState)
+    }
     return(
         <>
             <div className='card'>
-                <label className='card--label'>{props.label}</label>
-                <img className='card--image' src={props.image} alt="" width={250} height={200}/>
+                <img onClick={display} className='card--image' src={props.image} alt="" width={250} height={200}/>
                 <h2>{props.title}</h2>
+                <label className='card--label'>{props.label}</label>
                 <p>{props.description}</p>
-                {/* <h1>{display ? `yes`:`no`}</h1> */}
             </div>
         </>
     )

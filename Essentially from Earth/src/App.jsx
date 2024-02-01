@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Body from './components/Body';
 import Card from './components/Card';
 import productData from './components/Products';
+import Greeting from './components/userGreeting';
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <>
+    {/* <Greeting  isLoggedIn = {true} userName = "Muggsy"/> */}
     <Header />
     <Body />
     {renderProducts}

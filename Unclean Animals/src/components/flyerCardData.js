@@ -2,65 +2,121 @@ const flyerCardData = [
     
     { 
      image: '/src/images/small images/eagle.jpg', 
-     title: 'NESHER ( נשר ). The eagle.'},
+     title: 'נשר',
+     label: 'The Eagle',
+     transliteration:`Nashar`,
+    },
     {
      image: '/src/images/small images/vulture.jpg', 
-     title: 'PARAS ( פרס ). The vulture.'},
+     title: 'פרס',
+     label: 'The Vulture',
+     transliteration:'Paras'},
     {
      image: '/src/images/small images/buzzard.jpg',
-     title: 'AHZNYAH ( עזניה ). The buzzard.'},
+     title: 'עזניה',
+     label: 'The Buzzard',
+     transliteration: 'Aghznia'
+    },
     {
      image: '/src/images/small images/falcon.jpg', 
-     title: "DA'AH ( דאה ). The falcon."},
+     title: "דאה",
+     label: 'The Falcon',
+     transliteration: `Da'ah`
+    },
     { 
      image: '/src/images/small images/kite.jpg', 
-     title: 'AYAH ( איה ). The kite.'},
+     title: 'איה',
+     label: 'The Kite',
+     transliteration: `Ahyah`
+    },
     {
      image: '/src/images/small images/raven.jpeg', 
-     title: 'OREV ( ערב ). The raven, crow.'},
+     title: 'עורב ',
+     label: 'The Raven/Crow',
+     transliteration: `Oghrev`
+    },
     { 
-     image: '/src/images/small images/ostritch.jpg', 
-     title: "BATH HA-YA'EHNAH ( בת היענה ). The ostritch."},
+     image: '/src/images/small images/trueOwl.JPG', 
+     title: "בת היענה",
+     label: 'The True Owl',
+     transliteration: `Bath Ha-Ya'ahnah`
+    },
     { 
      image: '/src/images/small images/hawk.jpg', 
-     title: 'THAKHMAS ( תחמס ). The hawk.'},
+     title: 'תחמס',
+     label: 'The Hawk',
+     transliteration: `Thakhmas`
+    },
     {
      image: '/src/images/small images/seagull.jpg', 
-     title: 'SHAKHAF ( שחף ). The seagull.'},
+     title: 'שחף',
+     label: 'The Seagull',
+     transliteration: `Shakaph`
+    },
     { 
-     image: '/src/images/small images/osprey5.jpg', 
-     title: 'NATS ( נץ ). The osprey.'},
+     image: '/src/images/small images/osprey.jpg', 
+     title: 'נץ',
+     label: 'The Osprey',
+     transliteration: `Nats`
+    },
     { 
-     image:'/src/images/small images/nightOwl.jpg', 
-     title: 'CHOS ( כוס ). The little owl.'},
+     image:'/src/images/small images/littleOwl.jpg', 
+     title: 'כוס',
+     label: 'The little Owl',
+     transliteration: `Chos`
+    },
     {
      image:'/src/images/small images/cormorant.jpg', 
-     title: 'SHALACH ( שלך ). the cormorant.'},
+     title: 'שלך',
+     label: 'The Cormorant',
+     transliteration: `Shalach`
+    },
     { 
      image: '/src/images/small images/barnOwl.jpg', 
-     title: 'YANASHOF ( ינשוף ). The barn-owl.'},
+     title: 'ינשוף',
+     label: 'The Barn Owl',
+     transliteration: `Yanshoph`
+    },
     {
      image: '/src/images/small images/lemur.jpg', 
-     title: 'THANASH-MATH ( תנשמת ). The flying colugos.'},
+     title: 'תנשמת',
+     label: 'The flying Lemur/Squirrel',
+     transliteration: `Thanashmath`
+    },
     { 
      image: '/src/images/small images/pelican.jpg', 
-     title: `KA'ATH ( קאת ). The pelican.`},
+     title: `קאת`,
+     label: 'The Pelican',
+     transliteration: `Ka'ath`
+    },
     {
      image: '/src/images/small images/crane.jpg', 
-     title: 'RAKHAM ( רחם ). The crane.'},
+     title: 'רחם',
+     label: 'The Crane',
+     transliteration: `Rakham`
+    },
     { 
-     image: '/src/images/small images/stork.jpg', 
-     title: `KHASYDAH ( חסידה ). The stork`},
-     
+     image: '/src/images/small images/stork3.jpg', 
+     title: `חסידה`,
+     label: 'The Stork',
+     transliteration: `Khasidah`
+    },
     {image:'/src/images/small images/heron.jpg', 
-     title: 'ANAPAH ( אנפה ). The heron.'},
-    
+     title: 'אנפה',
+     label: 'The Heron',
+     transliteration: `Anaphah`
+    },
     {
      image: '/src/images/small images/hoopoe.jpg', 
-     title: 'DOCH-YAFATH ( דוכיפת ). The hoopoe.'},
+     title: ' דוכיפת',
+     label: 'The Hoopoe',
+     transliteration: `Doch Yaphath`},
       
     {image: '/src/images/small images/bat.jpg',
-     title: 'AGHTLAF ( עטלף ). The bat.'}
+     title: 'עטלף',
+     label: 'The Bat',
+    transliteration: `Aghtlaph`
+    }
      
 ]
 export default flyerCardData

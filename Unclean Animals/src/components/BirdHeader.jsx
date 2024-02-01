@@ -1,10 +1,9 @@
-function BirdHeader(){
+function FlyerHeader(){
     return(
         <>
-        <h2>The Flying Creatures</h2>
-        <h3>“And these will you have in abomination from the flying creatures. Not will they be eaten. An abominationare they: the NASHAR, the PARAS, and the GHAZANAYH, and the DA'AH, and the AYH according to its kind,and every GHARAB according to its kind, and the BATH HA-YAINAH, and the THAKHAMAS, and theSHAKHAP, and the NATS according to its kind, and the CHOS, and the SHALACH, and the YANASHOP, andthe THANASH-MATH, and the KA'ATH, and the RAKHAM, and the KHASAYDAH, and the ANAPAH accordingto its kind, and the DOCH-YAPATH, and the GHATLAP”
-        (Thorah 3.11:13-19).</h3>
+        <h2>The Flying Creatures - העוף</h2>
+        <p>(Thorah: Leviticus 11:13-19) “And these will be abominations from the flying creatures. Not will you all eat them. They are an abomination. The Nashar, the Paras, and the Aghznyah, the Da'ah, and the Ah'yah according to its kind. And every Oghrev according to its kind, and the Bath Ha-Ya'ahnah, and the Thakhmas, and the Shakhaf, and the Nats according to its kind, and the Chos, and the Shalach, and the Yanshof, and the Thanash-Math, and the Ka'ath, and the Rakham, and the Khasydah, and the Anafah according to its kind, and the Doch-Yafath, and the Aghtlaf.”</p>
         </>
     )
 }
-export default BirdHeader
+export default FlyerHeader

@@ -1,19 +1,27 @@
 const creeperData = [
     {
         image:'/src/images/creeper images/locust.jpg',
-        title:'ARABAH ( ארבה ). The locust.'
+        title:'ארבה',
+        label: "The Locust",
+        transliteration: `Arbah`
     },
     {
         image:'/src/images/creeper images/katydid.jpg',
-        title: 'SALAIM (סלעם). The katydid.'
+        title: 'סלעם',
+        label: "The Katydid",
+        transliteration: `Salaghm`
     },
     {
         image:'/src/images/creeper images/cricket.jpg',
-        title: 'KHARGAL ( חרגל ). The cricket.'
+        title: 'חרגל',
+        label: "The Cricket.",
+        transliteration: `Khargol`
     },
     {
         image:'/src/images/creeper images/grasshopper.jpg',
-        title: 'KHAGAB ( חגב ). The grasshopper.'
+        title: 'חגב',
+        label: "The Grasshopper",
+        transliteration: `Khagav`
     }
 ]
 export default creeperData

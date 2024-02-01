@@ -1,5 +1,5 @@
 function Card(props){
-    // const [display, setDisplay] = React.useState(true)
+    // const [display, setDisplay] = React.useState(false)
     // function displayInfo(){
     //     setDisplay(prevState => !prevState)
     // }
